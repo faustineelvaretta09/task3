@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>CV Mahasiswa</title>
+   <link rel="stylesheet" href="main.css">
+</head>
+
+<body id="body">
+   <header id="header">
+      <div class="container">
+         <figure class="">
+            <img src="images/foto.webp" alt="">
+         </figure>
+         <div class="header ">
+            <h1><span id="white">Hai, saya</span><span id="orange"> Faustine Elvaretta Tambila</span></h1>
+            <h4><span id="white">Mahasiswi Prodi Teknik Informatika Itera</span></h4>
+         </div>
+      </div>
+   </header>
+   
+   <nav class="">
+      <div class="bayangan-header ">
+         <ul>
+            <li><a href="#tentang-saya">TENTANG SAYA</a></li>
+            <li><a href="#organisasi">ORGANISASI SAYA</a></li>
+            <li><a href="#hubungi">HUBUNGI SAYA</a></li>
+            <li><button id="btn-dark" onclick="mode()">Tema Gelap</button></li>
+         </ul>
+      </div>
+   </nav>
+   <section id="section">
+      <div class="flexbox">
+         <div class="subjudul" id="tentang-saya">
+            <h4># Tentang Saya</h4> 
+         </div>
+         <div class="perkecil"><button id="perkecil">Perkecil > </button></div>
+      </div>
+      <div class="kotak" id="kotak-1">
+            <div class="artikel flex-1" id="box">
+               <p>
+               <span class="capt">S</span> Saya seoarang mahasiswi semester 5 yang menempuh pendidikan di bidang IT, mampu berbicara dan berbahasa yang baik. Saya juga mampu menyesuaikan diri dengan lingkungan sekitar.</p>
+            </div>
+            <div class="artikel flex-1">
+               <figure>
+                  <video controls class="video">
+                     <source src="images/video.mp4" type="video/mp4">
+                  </video>
+               </figure>
+            </div>
+      </div>
+
+<!-- pengalaman organisasi -->
+      <div class="flexbox">
+         <div class="subjudul-2" id="organisasi">
+            <h4># Organisasi</h4>
+         </div>
+         <div class="perkecil"><button id="perkecil-2">Perkecil > </button></div>
+      </div>
+      
+      <div class="kotak" id="kotak-2">
+         <table>
+            <tr class="bg-tb" id="bg-tb">
+               <th rowspan="2">#</th>
+               <th rowspan="2">Posisi</th>
+               <th rowspan="2">Tempat</th>
+               <th colspan="2">Waktu</th>
+            </tr>
+            <tr class="bg-tb" id="bg-tb2">
+               <th>Mulai</th>
+               <th>Selesai</th>
+            </tr>
+            <tr>
+               <td class="center">1</td>
+               <td>Pramuka Inti</td>
+               <td>SMA Negeri 9 Bandar Lampung</td>
+               <td class="center">2017</td>
+               <td class="center">2019</td>
+            </tr>
+            <tr>
+               <td class="center">2</td>
+               <td>Staff Divisi Operasional PPLK 2021</td>
+               <td>Institut Teknologi Sumatera</td>
+               <td class="center">2021</td>
+               <td class="center">2021</td>
+            </tr>
+            <tr>
+               <td class="center">3</td>
+               <td>Daplok First Gathering IF 2021</td>
+               <td>Institut Teknologi Sumatera</td>
+               <td class="center">2021</td>
+               <td class="center">2021</td>
+            </tr>
+            <tr>
+               <td class="center">4</td>
+               <td>Staff Divisi Kreatif IF X EL 2021</td>
+               <td>Institut Teknologi Sumatera</td>
+               <td class="center">2021</td>
+               <td class="center">2021</td>
+            </tr>
+            <tr>
+               <td class="center">4</td>
+               <td>Staff BPH HMIF 2021</td>
+               <td>Institut Teknologi Sumatera</td>
+               <td class="center">2021</td>
+               <td class="center">2023</td>
+            </tr>
+         </table>
+      </div>
+
+      <!-- hubungi saya -->
+      <div class="subjudul-3" id="hubungi">
+         <h4># Hubungi Saya</h4>
+      </div>
+      <div class="box-2">
+         <form action="#tentang-saya">
+            <div class="form atas">
+               <label>Nama Anda</label><br>
+               <input type="text">
+            </div>
+            <div class="form bawah">
+               <label>Sudah nonton video saya?</label><br>
+               <input type="radio" value="Sudah" name="video">Sudah
+               <input type="radio" value="Belum" name="video">Belum
+            </div>
+            <div class="form bawah">
+               <label>Warna Kesukaan</label><br>
+               <input type="checkbox" value="Merah" name="warna">Merah
+               <input type="checkbox" value="Hijau" name="warna">Hijau
+               <input type="checkbox" value="Biru" name="warna">Biru
+            </div>
+            <input type="submit" value="KIRIM" class="submit">
+         </form>
+      </div>
+   </section>
+   <footer>
+      <section>
+         <div class="kotak footer" >
+            <h5>Created by <a href="#tentang-saya"><b>Faustine Elvaretta Tambila</b></a></h5>
+         </div>
+      </section>
+   </footer>
+   
+
+   <!-- <footer>
+      <p>Copyright &copy; 2022 Europe Autonomos Showroom</p>
+   </footer> -->
+   <script src="script.js"></script>
+</body>
+</html>
